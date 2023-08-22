@@ -6,7 +6,7 @@
 /*   By: fkalaman <student.42kocaeli.com.tr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 11:45:46 by fkalaman          #+#    #+#             */
-/*   Updated: 2023/08/22 14:07:07 by fkalaman         ###   ########.fr       */
+/*   Updated: 2023/08/22 14:19:07 by fkalaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ void draw_pixel(int x, int y, float brightness, void *mlx_ptr, void *win_ptr)
     int pixel_color = (color << 16) | (color << 8) | color; // RGB formatına dönüştür
     mlx_pixel_put(mlx_ptr, win_ptr, x, y, pixel_color);
 }
+
 void draw_line(int x0, int y0, int x1, int y1, void *mlx_ptr, void *win_ptr) 
 {
     int dx;

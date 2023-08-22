@@ -6,7 +6,7 @@
 /*   By: fkalaman <student.42kocaeli.com.tr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 12:00:29 by fkalaman          #+#    #+#             */
-/*   Updated: 2023/08/21 17:59:24 by fkalaman         ###   ########.fr       */
+/*   Updated: 2023/08/22 14:19:20 by fkalaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,8 +55,6 @@ void    draw_line(t_things vars, double x, double y, double start, double end)
 //     mlx_loop(vars.mlx);  
 //     return (0);
 // }
-
-
 
 int	press_close_key(t_things *vars)
 {
