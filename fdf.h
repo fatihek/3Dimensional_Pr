@@ -23,4 +23,9 @@ typedef struct t_things
 }   t_things;
 
 int	press_close_key(t_things *vars);
+int ft_abs(int x);
+int	ipart(float x);
+
+float	fpart(float x);
+float	rfpart(float x);
 #endif
