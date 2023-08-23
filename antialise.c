@@ -6,7 +6,7 @@
 /*   By: fkalaman <student.42kocaeli.com.tr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 11:45:46 by fkalaman          #+#    #+#             */
-/*   Updated: 2023/08/22 14:19:07 by fkalaman         ###   ########.fr       */
+/*   Updated: 2023/08/22 18:09:58 by fkalaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,6 +113,6 @@ int main() {
 
 int	press_close_key(t_things *vars)
 {
-	printf("\n\033[0;35mClosed!\033[0m\n\n");
-	exit(1);
+    printf("\n\033[0;35mClosed!\033[0m\n\n");
+    exit(1);
 }
